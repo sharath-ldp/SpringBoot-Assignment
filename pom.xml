@@ -17,7 +17,7 @@
 		<java.version>17</java.version>
 		<sonar.organization>sharath-ldp</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<spring.projectKey>sharath-ldp_SpringBoot-Assignment</spring.projectKey>
+		<sonar.projectKey>sharath-ldp_SpringBoot-Assignment</sonar.projectKey>
 <!--		<sonar.jdbc.url>jdbc:mysql://localhost:3306/myblog</sonar.jdbc.url>-->
 <!--		<sonar.jdbc.driver>com.mysql.jdbc.Driver</sonar.jdbc.driver>-->
 <!--		<sonar.jdbc.username>hbstudent</sonar.jdbc.username>-->
@@ -147,16 +147,16 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.19.1</version>
-				<configuration>
-					<includes>
-						<include>**/*Test.java</include>
-					</includes>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-surefire-plugin</artifactId>-->
+<!--				<version>2.19.1</version>-->
+<!--				<configuration>-->
+<!--					<includes>-->
+<!--						<include>**/*Test.java</include>-->
+<!--					</includes>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 
 <!--			<plugin>-->
 <!--				<groupId>org.jacoco</groupId>-->
