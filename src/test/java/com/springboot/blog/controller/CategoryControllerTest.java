@@ -88,7 +88,7 @@ public class CategoryControllerTest {
     }
 
     @Test
-    void updateCategory_withExistingCategoryId_shouldReturnUpdatedCategory() {
+    void updateCategory_withExistingCategoryId_ShouldReturnUpdatedCategory() {
         // Prepare
         Long categoryId = 1L;
         CategoryDto categoryDto = new CategoryDto();
